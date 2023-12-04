@@ -1,0 +1,109 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+    font-family:'Roboto, san-serif';
+}
+
+body{
+    background: black;;;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    height:100%;
+    flex-wrap:wrap;
+    
+    
+    
+}
+
+.container {
+    margin-top:px;
+    height:auto;
+    width:100%;
+    background:url('img/images (6).jpeg')      no-repeat center center/ cover;
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items:center;
+    padding:20px;
+}
+
+.header{
+    font-size:1.2rem;
+    border:2px solid white;
+    color:white;
+    background:#262626;
+    width: 90%;
+    margin:20px auto;
+    padding: 5px;
+    border-radius:20px;
+}
+
+.quoteBox{
+    background:#262626;
+    width:80%;
+    height:auto;
+    padding:50px 10px;
+    border-radius:20px;
+    box-shadow: 0 0 15px;
+    
+    
+}
+
+.miniContainer{
+    display:flex;
+    flex-direction:column;
+    width:100%;
+    justify-content:center;
+    align-items:center;
+    
+    
+}
+
+.quotes {
+    font-size:1.6rem;
+    line-height:1.5rem;
+    font-weight: bold;
+    color:white;
+    
+}
+
+.quoteFlex .person{
+    font-size:1.3rem;
+    color:red;
+    text-transform:uppercase;
+    margin-top:10px;
+}
+
+.quoteBtn{
+    background:#262626;
+    border:2px dotted white;
+    color:white;
+    border-radius: 20px;
+    padding:10px;
+    box-shadow: 0 0 15px;
+    margin: 40px;
+    font-size: 1.3rem;
+}
+
+.quoteBtn:active{
+    background:lightblue;
+    border:2px dotted red;
+    box-shadow: 0 0 15px;
+}
+
+.picOfPerson{
+    width: 50%;
+    height:100%;
+}
+
+.picOfPerson img{
+    width:100%;
+    height: inherit;
+    z-index:1;
+    margin-bottom: 20px;
+    border: 2px solid white;
+    border-radius: 25px;
+}
